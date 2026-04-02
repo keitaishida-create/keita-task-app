@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/keita-task-app/sw.js', { scope: '/keita-task-app/' })})}
